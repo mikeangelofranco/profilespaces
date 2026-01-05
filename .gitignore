@@ -1,0 +1,22 @@
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.sqlite3
+*.db
+
+# Environment and local data
+.env
+backend/.env
+backend/.pgdata/
+
+# Node / frontend
+ui/node_modules/
+ui/dist/
+
+# Misc
+.DS_Store
+*.log
